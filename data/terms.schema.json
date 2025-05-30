@@ -85,12 +85,21 @@
                 ]
             },
             "uniqueItems": true
+        },
+        "version": {
+            "description": "Version of the terms",
+            "type": "string"
+        },
+        "lastUpdated": {
+            "description": "Date when the terms were last updated",
+            "type": "string",
+            "format": "string"
         }
     },
     "required": [
         "terms"
     ],
-    "additionalProperties": false,
+    "additionalProperties": true,
     "definitions": {
         "termCode": {
             "description": "Unique short form identifier for a specific dimension",
