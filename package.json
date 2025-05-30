@@ -1,0 +1,28 @@
+{
+  "name": "llm-eval-monitor-framework",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "@material-tailwind/react": "^2.1.10",
+    "@tailwindcss/forms": "^0.5.0",
+    "framer-motion": "^6.2.8",
+    "next": "^12.1.0",
+    "next-seo": "^5.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recoil": "^0.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
+  }
+}
