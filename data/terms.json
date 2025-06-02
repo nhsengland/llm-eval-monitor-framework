@@ -115,7 +115,7 @@
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
             "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
-            "termCode": "qc-data-drift-"
+            "termCode": "qc-data-drift"
         },
         {
             "metaGroup": "Suitability in Context",
@@ -392,5 +392,5 @@
         }
     ],
     "version": "0.2.0",
-    "lastUpdated": "2025-03-18"
+    "lastUpdated": "2025-06-02"
 }
