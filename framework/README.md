@@ -7,7 +7,7 @@ Running the `make_json.ipynb` with the correctly updated version added will then
 ### Setup
 
 To update the `terms.json`:
-    - Navigate to the `framework` folder in the repo
-    - `pip install -r ./requirements.txt`
-    - Open the `make_json.ipnb` notebook and update the version number to your new version and run.
-    - Update the `CHANGELOG.md` to reflect your updates
+- Navigate to the `framework` folder in the repo
+- `pip install -r ./requirements.txt`
+- Open the `make_json.ipnb` notebook and update the version number to your new version and run.
+- Update the `CHANGELOG.md` to reflect your updates

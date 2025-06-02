@@ -110,7 +110,7 @@ export default function Term({ isOpen,
 
                         <div className="space-y-6 mt-4">
                            <div id="first-outer-box" className="bg-nhsuk-dark-blue/30 rounded-lg p-6 backdrop-blur-sm">
-                           <Disclosure>
+                           <Disclosure defaultOpen={true}>
                               {({ open }) => (
                                  <>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
@@ -136,7 +136,7 @@ export default function Term({ isOpen,
 
                         <div className="space-y-6 mt-4">
                            <div id="second-outer-box" className="bg-nhsuk-dark-blue/30 rounded-lg p-6 backdrop-blur-sm">
-                           <Disclosure>
+                           <Disclosure defaultOpen={true}>
                               {({ open }) => (
                                  <>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
@@ -186,7 +186,7 @@ export default function Term({ isOpen,
 
                         <div className="space-y-6 mt-4">
                            <div id="third-outer-box" className="bg-nhsuk-dark-blue/30 rounded-lg p-6 backdrop-blur-sm">
-                           <Disclosure>
+                           <Disclosure defaultOpen={true}>
                               {({ open }) => (
                                  <>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
