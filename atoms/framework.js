@@ -10,3 +10,8 @@ export const currentTermSlugState = atom({
    key: 'currentTermSlugState',
    default: null
 })
+
+export const frameworkVersionState = atom({
+   key: 'frameworkVersionState',
+   default: data.version || "0.1.0"
+})

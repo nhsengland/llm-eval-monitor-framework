@@ -1,5 +1,7 @@
+import { useRecoilValue } from "recoil";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon, ChevronDownIcon } from "@heroicons/react/outline"
+import { frameworkVersionState } from "../atoms/framework"
 
 const SearchBox = ({ searchTerm, setSearchTerm, searchRef }) => (
    <div className="relative font-mono">
@@ -21,7 +23,9 @@ const SearchBox = ({ searchTerm, setSearchTerm, searchRef }) => (
    </div>
 )
 
-export default function Header({ searchTerm, setSearchTerm, searchRef }) {
+export default function Header({ searchTerm, setSearchTerm, searchRef, VersionDisplay }) {
+   const version = useRecoilValue(frameworkVersionState);
+
    return (
       <Disclosure as="nav" className="px-4 py-4 md:py-8 md:px-8 lg:px-12 bg-blue-500">
 
@@ -36,7 +40,7 @@ export default function Header({ searchTerm, setSearchTerm, searchRef }) {
                   {/* Logo / headline */}
                   <div className="flex-row">
                      <div className="flex-shrink-0 flex items-center">
-                        <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white font-mono">Draft LLM Evaluation and Monitoring Framework v0.2.0</h1>
+                        <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white font-mono">Draft LLM Evaluation and Monitoring Framework v{version}</h1>
                      </div>
                   </div>
 
@@ -74,7 +78,7 @@ export default function Header({ searchTerm, setSearchTerm, searchRef }) {
                   </div>
                </Disclosure.Panel>
 
-               <Disclosure>
+               <Disclosure defaultOpen={true}>
                         {({ open }) => (
                            <>
                               <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
@@ -85,9 +89,15 @@ export default function Header({ searchTerm, setSearchTerm, searchRef }) {
                               </Disclosure.Button>
                               <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-white text-sm flex">
                                  <p className="mb-2">
-                                    This framework presents a structured approach to evaluating and monitoring in the responsible use of Large Language Models (LLMs)
-                                    <br></br>It is organised around three key groups — 'Suitability in Context', 'Wider Impact', and 'Quantifiable Changes' — each containing critical dimensions for consideration
-                                    <br></br>The emphasis is on the practical implications e.g. how often to review each dimension, what decisions they inform, and what actions they drive
+                                    This framework presents a structured approach to evaluating and monitoring in the responsible use of Large Language Models (LLMs) in healthcare settings.
+                                    <br></br>It is organised around three key groups:
+                                    <ul>
+                                       <li>- Suitability in Context</li>
+                                       <li>- Wider Impact</li>
+                                       <li>- Quantifiable Changes</li>
+                                    </ul>
+                                    with each containing critical dimensions for consideration.
+                                    <br></br>The emphasis is on the practical implications e.g. how often to review each dimension, what decisions they inform, and what actions they drive.
                                  </p>
                               </Disclosure.Panel>
                            </>
