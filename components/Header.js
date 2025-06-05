@@ -93,8 +93,17 @@ export default function Header({ searchTerm, setSearchTerm, searchRef, VersionDi
                                     <br></br>It is organised around three key groups:
                                     <ul>
                                        <li>- Suitability in Context</li>
+                                          <ul>
+                                             <li>addresses the model's appropriateness for the specific healthcare context, and if the model is continuing to do what it was designed for.</li>
+                                          </ul>
                                        <li>- Wider Impact</li>
+                                          <ul>
+                                             <li>considers the broader implications of the model's and its responsible use.</li>
+                                          </ul>
                                        <li>- Quantifiable Changes</li>
+                                          <ul>
+                                             <li>attempts to group quantitative measurable outcomes and performance metrics.</li>
+                                          </ul>
                                     </ul>
                                     with each containing critical dimensions for consideration.
                                     <br></br>The emphasis is on the practical implications e.g. how often to review each dimension, what decisions they inform, and what actions they drive.
