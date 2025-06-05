@@ -5,22 +5,22 @@ import { ChevronDownIcon } from "@heroicons/react/outline"
 import data from "data/terms.json"
 import Badge from "./Badge"
 
-export default function Term({ isOpen, 
-   metaDimension, 
-   considerationsSetup, 
-   monitoringAction, 
-   monitoringRationale, 
+export default function Term({ isOpen,
+   metaDimension,
+   considerationsSetup,
+   monitoringAction,
+   monitoringRationale,
    monitoringFrequency,
    monitoringUpdate,
    monitoringRetire,
    updateretireUpdate,
    updateretireRetire,
-   metaGroup, 
+   metaGroup,
    related,
-   onClose, 
-   onNext, 
-   onPrev, 
-   onSelectTermSlug 
+   onClose,
+   onNext,
+   onPrev,
+   onSelectTermSlug
 }) {
 
    /**
@@ -82,7 +82,7 @@ export default function Term({ isOpen,
                      <div className="bg-nhsuk-yellow px-4 py-2 text-center text-sm font-medium rounded-md mb-2">
                         ⚠️ This is a prototype - this content is draft, does not constitute NHS policy, and is likely to change ⚠️
                      </div>
-                     
+
                <div className="flex justify-between items-center"></div>
                      <div className="flex justify-between space-x-8 items-start">
                         <div>
@@ -114,14 +114,14 @@ export default function Term({ isOpen,
                               {({ open }) => (
                                  <>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
-                                       <h3 className="text-lg font-bold text-white">Considerations</h3>
+                                       <h3 className="text-lg font-bold text-white">Preparing for evaluation and monitoring</h3>
                                        <ChevronDownIcon
                                           className={`${open ? 'transform rotate-180' : ''} w-4 h-4 mr-1 ml-2`}
                                        />
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-blue-100 text-sm flex">
                                        <p className="mb-2">
-                                          As a large range of considerations need to be addressed for LLM monitoring, these have been grouped into three categories:<br></br>'Suitability in Context' addresses if the model is continuing to do what it was designed for.<br></br>'Wider Impact' looks at the responsible use of the model.<br></br>'Quantifiable Changes' attempts to group considerations that can be measured through metrics.<br></br> 
+                                          As a large range of considerations need to be addressed for LLM monitoring, these have been grouped into three categories:<br></br>'Suitability in Context' addresses if the model is continuing to do what it was designed for.<br></br>'Wider Impact' looks at the responsible use of the model.<br></br>'Quantifiable Changes' attempts to group considerations that can be measured through metrics.<br></br>
                                        </p>
                                     </Disclosure.Panel>
                                  </>
@@ -151,7 +151,7 @@ export default function Term({ isOpen,
                                           <br></br>The first two sections ('Suitability in Context' and 'Wider Impact') are qualitative in nature and require manual review points with an MDT discussion.
                                           <br></br>The third section ('Quantifiable Changes') is quantitative in nature and may suit continuous or regular automatic monitoring through metrics.
                                           <br></br>Each consideration has an action to undertake at the defined monitoring frequency.
-                                          <br></br>Decisions to act are defined based on the information across the whole consideration category 
+                                          <br></br>Decisions to act are defined based on the information across the whole consideration category
                                        </p>
                                     </Disclosure.Panel>
                                  </>
@@ -181,7 +181,7 @@ export default function Term({ isOpen,
                               <div className="text-base">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: monitoringRetire }}></div>
                               </div>
-                           </div>   
+                           </div>
                         </div>
 
                         <div className="space-y-6 mt-4">
