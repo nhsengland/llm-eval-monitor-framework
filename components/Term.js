@@ -121,7 +121,7 @@ export default function Term({ isOpen,
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-blue-100 text-sm flex">
                                        <p className="mb-2">
-                                          As a large range of considerations need to be addressed for LLM monitoring, these have been grouped into three categories:<br></br>'Suitability in Context' addresses if the model is continuing to do what it was designed for.<br></br>'Wider Impact' looks at the responsible use of the model.<br></br>'Quantifiable Changes' attempts to group considerations that can be measured through metrics.<br></br>
+                                          TBC <br></br>
                                        </p>
                                     </Disclosure.Panel>
                                  </>
