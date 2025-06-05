@@ -28,7 +28,7 @@ group_map = {
     "Quantifiable Changes": "qc",
 }
 
-version="0.2.0"
+version="0.2.1"
 
 framework_location = f"./LLMevalmonitorframework_v{version}.xlsx"
 terms_output_location = "../data/terms.json"
