@@ -129,7 +129,7 @@ export default function Term({ isOpen,
                               )}
                            </Disclosure>
                               <p className="text-base text-white mt-2">Question to ask when setting up monitoring</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: considerationsSetup }}></div>
                               </div>
                            </div>
@@ -159,27 +159,27 @@ export default function Term({ isOpen,
                               )}
                            </Disclosure>
                               <p className="text-base text-white mt-2">Action at monitoring time</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: monitoringAction }}></div>
                               </div>
 
                               <p className="text-base text-white mt-2">Rationale</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: monitoringRationale }}></div>
                               </div>
 
                               <p className="text-base text-white mt-2">Frequency</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: monitoringFrequency }}></div>
                               </div>
 
                               <p className="text-base text-white mt-2">When to Update</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: monitoringUpdate }}></div>
                               </div>
 
                               <p className="text-base text-white mt-2">When to Retire</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: monitoringRetire }}></div>
                               </div>
                            </div>
@@ -205,12 +205,12 @@ export default function Term({ isOpen,
                               )}
                            </Disclosure>
                               <p className="text-base text-white mt-2">How to Update</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: updateretireUpdate }}></div>
                               </div>
 
                               <p id="first-subtitle" className="text-base text-white mt-2">How to Retire</p>
-                              <div className="text-base">
+                              <div className="text-base pl-4">
                                  <div id="term-content" dangerouslySetInnerHTML={{ __html: updateretireRetire }}></div>
                               </div>
                            </div>
