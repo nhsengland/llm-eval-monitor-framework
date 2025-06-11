@@ -2,6 +2,8 @@ import pandas as pd
 import json
 from datetime import datetime
 
+version="0.2.1"
+
 upper_column_name_map = {
     "Meta": "Meta",
     "Considerations": "Considerations",
@@ -28,7 +30,7 @@ group_map = {
     "Quantifiable Changes": "qc",
 }
 
-version="0.2.1"
+
 
 framework_location = f"./LLMevalmonitorframework_v{version}.xlsx"
 terms_output_location = "../data/terms.json"
