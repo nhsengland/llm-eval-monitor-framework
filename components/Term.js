@@ -121,7 +121,7 @@ export default function Term({ isOpen,
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-blue-100 text-sm flex">
                                        <p className="mb-2">
-                                          The first thing to consider before creating a monitoring plan (see below), is listed here.
+                                          This section serves as a starting point ahead of creating a monitoring plan (see below).
                                           <br></br>These considerations, different for each dimension, are designed to help you think about what information you may need for evaluation and monitoring.
                                        </p>
                                     </Disclosure.Panel>
