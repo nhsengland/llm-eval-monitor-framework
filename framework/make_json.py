@@ -72,6 +72,6 @@ terms_json_out = json.loads(
 )
 
 with open(terms_output_location, "w") as file:
-    json.dump(terms_json_out, file)
+    json.dump(terms_json_out, file, indent=4, ensure_ascii=False)
 
 print(f"JSON file written to {terms_output_location} with {len(df)} terms.")
