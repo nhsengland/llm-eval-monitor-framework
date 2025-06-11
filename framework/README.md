@@ -9,5 +9,7 @@ Running the `make_json.ipynb` with the correctly updated version added will then
 To update the `terms.json`:
 - Navigate to the `framework` folder in the repo
 - `pip install -r ./requirements.txt`
-- Open the `make_json.ipnb` notebook and update the version number to your new version and run.
+- Open `make_json.py` and update the version number to your new version
+- `python make_json.py`
+- Check to see if you need to prettify `terms.json` for human readability (the [Prettify JSON VS Code extension](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) is useful here)
 - Update the `CHANGELOG.md` to reflect your updates
