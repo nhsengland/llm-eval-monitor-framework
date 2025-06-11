@@ -198,7 +198,7 @@ export default function Term({ isOpen,
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-blue-100 text-sm flex">
                                        <p className="mb-2">
-                                          An update and retirement plan needs to be ready to put into action according to actions identified in the monitoring plan. These plans are currently the same across all sections.
+                                          An update and retirement plan needs to be ready to put into action according to actions identified in the monitoring plan. This section are currently the same across all dimensions.
                                        </p>
                                     </Disclosure.Panel>
                                  </>
