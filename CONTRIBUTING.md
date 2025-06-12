@@ -16,19 +16,18 @@ they are discussed properly before any time is spent on them.
 
 ## Updating the Changelog
 
-If you open a GitHub pull request on this repo, please update `CHANGELOG` to reflect your contribution.
+If you open a GitHub pull request on this repo that includes a substantive change, please update `CHANGELOG` to reflect your contribution.
 
-Add your entry under `Unreleased` as: 
-- `Breaking changes`
-- `New features`
-- `Fixes`
-
-Internal changes to the project that are not part of the public API do not need changelog entries, for example fixing the CI build server.
+Changes to the project that not part of the public API do not need changelog entries, for example fixing the CI build server.
 
 These sections follow [semantic versioning](https://semver.org/spec/v2.0.0.html), where:
 
 - `Breaking changes` corresponds to a `major` (1.X.X) change.
 - `New features` corresponds to a `minor` (X.1.X) change.
 - `Fixes` corresponds to a `patch` (X.X.1) change.
+
+Versioning should correspond to [tags](https://github.com/nhsengland/llm-eval-monitor-framework/tags) which can be done retrospectively.
+
+Changes to the underlying framework (i.e. changes to `terms.json`) may require further documentation via a [release](https://github.com/nhsengland/llm-eval-monitor-framework/releases).
 
 See the [`CHANGELOG.md`](./CHANGELOG.md) for an example for how this looks.
