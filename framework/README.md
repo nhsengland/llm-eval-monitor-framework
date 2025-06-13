@@ -12,4 +12,4 @@ To update the `terms.json`:
 - Open `make_json.py` and update the version number to your new version
 - `python make_json.py`
 - Check to see if you need to prettify `terms.json` for human readability (for example, the [Prettify JSON VS Code extension](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) can be useful here)
-- Update the `CHANGELOG.md` to reflect your updates
+- Update the framework [`CHANGELOG.md`](./CHANGELOG.md) to reflect your updates
