@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the framework will be documented in this file. Once a PR has been merged that includes an updated version of the framework (i.e. anything that alters the content of `LLMevalmonitorframework.xlsx`) you should ensure that an associated [tag](https://github.com/nhsengland/llm-eval-monitor-framework/tags) is created, with the prefix `framework`.
+All notable changes to the framework will be documented in this file. Once a PR has been merged that includes an updated version of the framework (i.e. anything that alters the content of `LLMevalmonitorframework_v{i.i.i}.xlsx`) you should ensure that an associated [tag](https://github.com/nhsengland/llm-eval-monitor-framework/tags) is created, with the prefix `framework`.
 
 Updates that do not substantively change the framework contents can be recorded in the root [`CHANGELOG.md`](../CHANGELOG.md) and should also have an associated tag.
 
