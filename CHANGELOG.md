@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. Once a PR has been merged that creates a new version, you should ensure that an associated [tag](https://github.com/nhsengland/llm-eval-monitor-framework/tags) is created.
 
-This project loosely follows [semantic versioning](https://semver.org/spec/v2.0.0.html), adapted to account for changes to the UI and underlying framework content (see [guide](./versioning_guide.svg)). See [framework changelog] for more details.
+This project loosely follows [semantic versioning](https://semver.org/spec/v2.0.0.html), adapted to account for changes to the UI and underlying framework content (see [guide](./versioning_guide.svg)). See [framework changelog](./framework/CHANGELOG.md) for more details.
 
 ## [v0.1.1] (current version)
 
