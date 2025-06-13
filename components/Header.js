@@ -87,17 +87,16 @@ export default function Header({ searchTerm, setSearchTerm, searchRef, VersionDi
                                     className={`${open ? 'transform rotate-180' : ''} w-4 h-4 mr-1 ml-2`}
                                  />
                               </Disclosure.Button>
-                              <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-white text-sm flex">
-                                 <p className="mb-2">
+                              <Disclosure.Panel className="mt-2 p-4 bg-blue-300/20 rounded-lg text-white text-sm flex leading-relaxed">
+                                 <p className="mb-2 space-y-3">
                                     This framework presents a structured approach to evaluating and monitoring in the responsible use of Large Language Models (LLMs) in healthcare settings.
                                     <br></br>It is organised around three key groups:
-                                    <ul>
-                                       <li>- Suitability in Context</li>
-                                       <li>- Wider Impact</li>
-                                       <li>- Quantifiable Changes</li>
+                                    <ul className="list-disc pl-6 space-y-1">
+                                       <li><strong>Suitability in Context: </strong>addresses if the model is continuing to do what it was designed for.</li>
+                                       <li><strong>Wider Impact: </strong>looks at the responsible use of the model.</li>
+                                       <li><strong>Quantifiable Changes: </strong>attempts to group considerations that can be measured through metrics.</li>
                                     </ul>
-                                    with each containing critical dimensions for consideration.
-                                    <br></br>The emphasis is on the practical implications e.g. how often to review each dimension, what decisions they inform, and what actions they drive.
+                                    <br></br>Each group contains a set of dimensions that cover different aspects of LLM performance. The emphasis across the whole framework is on the practical implications i.e. how often to review each dimension, what decisions they inform, and what actions they drive.
                                  </p>
                               </Disclosure.Panel>
                            </>
