@@ -24,7 +24,7 @@ Minor changes to content headers to account for differences between .xlsx format
 
 ## [v0.2.0]
 
-First upload of framework to UI.
+First upload of framework to UI. Note: earlier versions developed offline.
 
 ### Breaking Changes
 
