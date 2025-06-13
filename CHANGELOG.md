@@ -22,7 +22,7 @@ Minor changes to formatting and content to account for differences between .xlsx
 
 ## [v0.1.0]
 
-Initial adjustments to UI to better accommodate LLM framework components.
+Initial adjustments to better accommodate framework components.
 
 ### Breaking Changes
 
