@@ -6,7 +6,7 @@ Updates that do not substantively change the framework contents can be recorded 
 
 This project loosely follows [semantic versioning](https://semver.org/spec/v2.0.0.html), adapted to account for changes to the UI and underlying framework content (see [guide](./versioning_guide.svg)).
 
-## [v0.2.1] (current version)
+## [framework_v0.2.1] (current version)
 
 Minor changes to content headers to account for differences between .xlsx formatting for viewing in Excel, and the web UI.
 
@@ -22,7 +22,7 @@ Minor changes to content headers to account for differences between .xlsx format
 
 - n/a
 
-## [v0.2.0]
+## [framework_v0.2.0]
 
 First upload of framework to UI. Note: earlier versions developed offline.
 
