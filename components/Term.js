@@ -150,7 +150,7 @@ export default function Term({ isOpen,
                                        <p className="mb-2">
                                           This section of the framework aims to support the creation of a monitoring plan that focusses on when action needs to be taken.
                                           <br></br>Dimensions in the first two groups ('Suitability in Context' and 'Wider Impact') are qualitative in nature and require manual review points with an multi-disciplinary team discussion.
-                                          <br></br>Dimensions in the third groups ('Quantifiable Changes') are quantitative in nature and may suit continuous or regular automatic monitoring through metrics.
+                                          <br></br>Dimensions in the third group ('Quantifiable Changes') are quantitative in nature and may suit continuous or regular automatic monitoring through metrics.
                                           <br></br>Each dimension has an action to undertake at the defined monitoring frequency.
                                           <br></br>Decisions to act are defined based on the information across the whole group, not just the individual dimension. For example, if there are concerns about one dimension, it may be necessary to review the whole group to fully understand the implications of this.
                                        </p>
