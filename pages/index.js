@@ -30,6 +30,13 @@ const textSearch = (search, terms) => {
    const otherSearch = terms.filter(term =>
       term.metaDimension.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
       term.considerationsSetup.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.monitoringAction.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.monitoringRationale.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.monitoringFrequency.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.monitoringUpdate.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.monitoringRetire.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.updateretireUpdate.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
+      term.updateretireRetire.toLowerCase().indexOf(search.toLowerCase()) > -1 ||
       term.termCode.toLowerCase().indexOf(search.toLowerCase()) > -1
    ).sort(titleSort)
 
