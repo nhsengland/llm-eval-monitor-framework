@@ -6,7 +6,7 @@ This project loosely follows [semantic versioning](https://semver.org/spec/v2.0.
 
 ## [v0.1.2] (current version)
 
-Resolve issues #11 and #13 as well as resolve PR #1 from Dependabot 
+Resolve issues #11 and #13 as well as resolve PR #1 from Dependabot
 
 ### Breaking Changes
 
