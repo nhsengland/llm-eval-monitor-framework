@@ -4,7 +4,25 @@ All notable changes to this project will be documented in this file. Once a PR h
 
 This project loosely follows [semantic versioning](https://semver.org/spec/v2.0.0.html), adapted to account for changes to the UI and underlying framework content (see [guide](./versioning_guide.svg)). See [framework changelog](./framework/CHANGELOG.md) for more details.
 
-## [v0.1.1] (current version)
+## [v0.1.2] (current version)
+
+Resolve issues #11 and #13 as well as resolve PR #1 from Dependabot
+
+### Breaking Changes
+
+- n/a
+
+### New Features
+
+- n/a
+
+### Fixed
+
+- Updated search to filter across all sections of dimensions pages (#11)
+- Added description to `_app.js` (#13)
+- Upgraded zipp version for tests
+
+## [v0.1.1]
 
 Minor changes to formatting and content to account for differences between .xlsx formatting for viewing in Excel, and the web UI.
 

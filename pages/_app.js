@@ -8,11 +8,11 @@ export default function MyApp({ Component, pageProps }) {
       <>
          <NextSeo
             title="LLM Evaluation and Monitoring Framework"
-            description="..."
+            description="A draft framework for evaluating and monitoring large language models (LLMs) in healthcare applications."
             openGraph={{
                url: 'https://nhsengland.github.io/llm-eval-monitor-framework/',
                title: 'LLM Monitoring and Evaluation Framework',
-               description: '...',
+               description: 'A draft framework for evaluating and monitoring large language models (LLMs) in healthcare applications.',
             }}
             twitter={{
                handle: '@NHSuk',
