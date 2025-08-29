@@ -146,8 +146,8 @@
         {
             "metaGroup": "Wider Impact",
             "metaDimension": "Ethics",
-            "considerationsSetup": "What are the ethical implications of the LLM’s recommendations and how are they being managed?",
-            "monitoringAction": "Are ethical implications of the LLM’s recommendations being regularly reviewed and managed effectively in the live environment?",
+            "considerationsSetup": "What are the ethical implications of the LLM’s outputs and how are they being managed?",
+            "monitoringAction": "Are ethical implications of the LLM’s outputs being regularly reviewed and managed effectively in the live environment?",
             "monitoringRationale": "Understanding and managing the ethical implications of the LLM’s usage is crucial to ensure responsible use. Ethical dimensions to consider whilst assessing this is judging whether the model is fair, transparent, value adding and reliable. ",
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
@@ -391,6 +391,6 @@
             "termCode": "wi-unintentional-misuse"
         }
     ],
-    "version": "0.2.1",
-    "lastUpdated": "2025-06-11"
+    "version": "0.2.2",
+    "lastUpdated": "2025-08-29"
 }

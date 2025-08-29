@@ -6,7 +6,23 @@ Updates that do not substantively change the framework contents can be recorded 
 
 This project loosely follows [semantic versioning](https://semver.org/spec/v2.0.0.html), adapted to account for changes to the UI and underlying framework content (see [guide](./versioning_guide.svg)).
 
-## [framework_v0.2.1] (current version)
+## [framework_v0.2.2] (current version)
+
+Replacement of periods with question marks in some questions. Change of wording for ethics dimension. 
+
+### Breaking Changes
+
+- n/a
+
+### New Features
+
+- n/a
+
+### Fixed
+
+- n/a
+
+## [framework_v0.2.1]
 
 Minor changes to content headers to account for differences between .xlsx formatting for viewing in Excel, and the web UI.
 

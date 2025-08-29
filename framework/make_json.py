@@ -2,7 +2,7 @@ import pandas as pd
 import json
 from datetime import datetime
 
-version="0.2.1"
+version="0.2.2"
 
 upper_column_name_map = {
     "Meta": "Meta",
