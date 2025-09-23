@@ -110,12 +110,13 @@ export default function Term({ isOpen,
 
                         <div className="space-y-6 mt-4">
                            <div id="first-outer-box" className="bg-nhsuk-dark-blue/30 rounded-lg p-6 backdrop-blur-sm">
-                           <Disclosure defaultOpen={true}>
+                           <Disclosure defaultOpen={false}>
                               {({ open }) => (
                                  <>
+                                  <h3 className="text-lg font-bold text-white">Preparing for evaluation and monitoring.</h3>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
-                                       <h3 className="text-lg font-bold text-white">Preparing for evaluation and monitoring</h3>
-                                       <ChevronDownIcon
+                                        <h6>About this section</h6>
+                                       <ChevronDownIcon 
                                           className={`${open ? 'transform rotate-180' : ''} w-4 h-4 mr-1 ml-2`}
                                        />
                                     </Disclosure.Button>
@@ -137,12 +138,13 @@ export default function Term({ isOpen,
 
                         <div className="space-y-6 mt-4">
                            <div id="second-outer-box" className="bg-nhsuk-dark-blue/30 rounded-lg p-6 backdrop-blur-sm">
-                           <Disclosure defaultOpen={true}>
+                           <Disclosure defaultOpen={false}>
                               {({ open }) => (
                                  <>
+                                    <h3 className="text-lg font-bold text-white">Monitoring Plan</h3>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
-                                       <h3 className="text-lg font-bold text-white">Monitoring Plan</h3>
-                                       <ChevronDownIcon
+                                        <h6>About this section</h6>
+                                       <ChevronDownIcon 
                                           className={`${open ? 'transform rotate-180' : ''} w-4 h-4 mr-1 ml-2`}
                                        />
                                     </Disclosure.Button>
@@ -187,12 +189,13 @@ export default function Term({ isOpen,
 
                         <div className="space-y-6 mt-4">
                            <div id="third-outer-box" className="bg-nhsuk-dark-blue/30 rounded-lg p-6 backdrop-blur-sm">
-                           <Disclosure defaultOpen={true}>
+                           <Disclosure defaultOpen={false}>
                               {({ open }) => (
                                  <>
+                                    <h3 className="text-lg font-bold text-white">Update/Retirement Plan</h3>
                                     <Disclosure.Button className="flex items-center text-sm text-blue-200 hover:text-white mt-2">
-                                       <h3 className="text-lg font-bold text-white">Update/Retirement Plan</h3>
-                                       <ChevronDownIcon
+                                        <h6>About this section</h6>
+                                       <ChevronDownIcon 
                                           className={`${open ? 'transform rotate-180' : ''} w-4 h-4 mr-1 ml-2`}
                                        />
                                     </Disclosure.Button>

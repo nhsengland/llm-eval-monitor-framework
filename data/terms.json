@@ -9,7 +9,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-accessibility-of-healthcare"
         },
@@ -22,7 +22,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-accountability"
         },
@@ -35,7 +35,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-benchmark-relevance"
         },
@@ -48,7 +48,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-bias-in-context-learning"
         },
@@ -61,7 +61,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-bias-analysis-error-rates"
         },
@@ -74,7 +74,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-changes-to-the-system"
         },
@@ -87,7 +87,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-concept-drift"
         },
@@ -100,7 +100,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-cost"
         },
@@ -113,7 +113,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-data-drift"
         },
@@ -126,7 +126,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-data-governance"
         },
@@ -139,20 +139,20 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-documentation"
         },
         {
             "metaGroup": "Wider Impact",
             "metaDimension": "Ethics",
-            "considerationsSetup": "What are the ethical implications of the LLM’s recommendations and how are they being managed?",
-            "monitoringAction": "Are ethical implications of the LLM’s recommendations being regularly reviewed and managed effectively in the live environment?",
+            "considerationsSetup": "What are the ethical implications of the LLM’s outputs and how are they being managed?",
+            "monitoringAction": "Are ethical implications of the LLM’s outputs being regularly reviewed and managed effectively in the live environment?",
             "monitoringRationale": "Understanding and managing the ethical implications of the LLM’s usage is crucial to ensure responsible use. Ethical dimensions to consider whilst assessing this is judging whether the model is fair, transparent, value adding and reliable. ",
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-ethics"
         },
@@ -165,7 +165,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-evaluation-techniques-for-ongoing-monitoring"
         },
@@ -178,7 +178,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-expected-outcomes"
         },
@@ -191,7 +191,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-explainability"
         },
@@ -204,7 +204,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-fairness-and-edge-cases"
         },
@@ -217,7 +217,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-feedback-mechanism"
         },
@@ -230,7 +230,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-human-oversight"
         },
@@ -243,7 +243,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-intentional-misuse"
         },
@@ -256,7 +256,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-natural-environment"
         },
@@ -269,7 +269,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-privacy"
         },
@@ -282,7 +282,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-regulations"
         },
@@ -295,7 +295,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-safety-assessment"
         },
@@ -308,7 +308,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-scalability"
         },
@@ -321,7 +321,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-society"
         },
@@ -334,7 +334,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-subject-matter-expert-involvement"
         },
@@ -347,7 +347,7 @@
             "monitoringFrequency": "Automatic - Continuous with regular reporting<br>Manual - How Often?",
             "monitoringUpdate": "Any performance metric showing a statistical process control defined drift would trigger an update  <br>Known data issues or updates would also trigger an update<br>Bias and privacy violations would need to be investigated with a possible updated prepared  <br>System performance degradation may trigger an update if it is believed a significant improvement can be made in a cost effective way",
             "monitoringRetire": "A model update has not improved the responsible use back to acceptable levels or a bias/privacy violation has been discovered which can't be explained",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "qc-system-for-monitoring"
         },
@@ -360,7 +360,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-third-party-audit"
         },
@@ -373,7 +373,7 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Data Governance and safety issues would automatically trigger an update<br>The model is either slipping away from expectations in 2+ areas or has breached 1+ area(s)",
             "monitoringRetire": "Significant Data Governance and Safety Issues may shut a model down<br>A model update has not improved the suitability back to acceptable levels or 2+ areas have breached  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "sic-uncertainty-communication"
         },
@@ -386,11 +386,11 @@
             "monitoringFrequency": "Manual - How Often?",
             "monitoringUpdate": "Changes to regulations would automatically require an update as minimum <br>Additional concerns developing across 2+ other areas would trigger an update",
             "monitoringRetire": "A significant regulation issue may shut a model down<br>A model update has not improved the responsible use back to acceptable levels or 2+ areas having identified significant concern  ",
-            "updateretireUpdate": "Who will update the model under what standard operating procedure.   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
+            "updateretireUpdate": "Who will update the model under what standard operating procedure?   <br>Should the model be paused in the meantime?  Is there a safe setting to revert to?<br>How would the update be communicated?<br>How would the update be rolled out (continuous deployment vs release)?",
             "updateretireRetire": "How will the retirement be communicated?<br>What will replace the service if anything at all?<br>What is the roll-off time?<br>What corporate knowledge needs to be logged?<br>What data and models need to be stored / destroyed?<br>What lessons learnt can be recorded and shared?",
             "termCode": "wi-unintentional-misuse"
         }
     ],
-    "version": "0.2.1",
-    "lastUpdated": "2025-06-11"
+    "version": "0.2.2",
+    "lastUpdated": "2025-08-29"
 }
