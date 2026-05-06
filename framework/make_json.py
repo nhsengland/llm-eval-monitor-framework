@@ -1,8 +1,28 @@
 import pandas as pd
 import json
 from datetime import datetime
+from pathlib import Path
+import re
 
-version="0.2.2"
+FRAMEWORK_PATTERN = "LLMevalmonitorframework_v*.xlsx"
+FRAMEWORK_VERSION_RE = re.compile(r"LLMevalmonitorframework_v(?P<version>.+)\.xlsx$")
+
+
+def framework_version_key(path):
+    return tuple(int(part) for part in FRAMEWORK_VERSION_RE.match(path.name)["version"].split("."))
+
+
+def get_framework_workbook():
+    workbooks = sorted(Path(".").glob(FRAMEWORK_PATTERN), key=framework_version_key)
+    if not workbooks:
+        raise FileNotFoundError(f"No framework workbook found matching {FRAMEWORK_PATTERN}")
+
+    workbook = workbooks[-1]
+    version = FRAMEWORK_VERSION_RE.match(workbook.name)["version"]
+    return workbook, version
+
+
+framework_location, version = get_framework_workbook()
 
 upper_column_name_map = {
     "Meta": "Meta",
@@ -30,9 +50,6 @@ group_map = {
     "Quantifiable Changes": "qc",
 }
 
-
-
-framework_location = f"./LLMevalmonitorframework_v{version}.xlsx"
 terms_output_location = "../data/terms.json"
 
 df = pd.read_excel(
