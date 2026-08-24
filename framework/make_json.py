@@ -1,8 +1,13 @@
-import pandas as pd
 import json
+import re
 from datetime import datetime
+from pathlib import Path
 
-version="0.2.2"
+import pandas as pd
+
+FRAMEWORK_FILE_PATTERN = re.compile(
+    r"^LLMevalmonitorframework_v(?P<version>\d+\.\d+\.\d+)\.xlsx$"
+)
 
 upper_column_name_map = {
     "Meta": "Meta",
@@ -31,9 +36,34 @@ group_map = {
 }
 
 
+def get_framework_file_and_version(framework_dir: Path) -> tuple[Path, str]:
+    """Return the single versioned framework spreadsheet and its version."""
+    matches: list[tuple[Path, str]] = []
 
-framework_location = f"./LLMevalmonitorframework_v{version}.xlsx"
-terms_output_location = "../data/terms.json"
+    for path in framework_dir.glob("LLMevalmonitorframework_v*.xlsx"):
+        match = FRAMEWORK_FILE_PATTERN.fullmatch(path.name)
+        if match:
+            matches.append((path, match.group("version")))
+
+    if not matches:
+        raise FileNotFoundError(
+            "No framework spreadsheet matching "
+            "LLMevalmonitorframework_v<major>.<minor>.<patch>.xlsx was found."
+        )
+
+    if len(matches) > 1:
+        filenames = ", ".join(sorted(path.name for path, _ in matches))
+        raise RuntimeError(
+            "Expected exactly one versioned framework spreadsheet, found: "
+            f"{filenames}"
+        )
+
+    return matches[0]
+
+
+framework_dir = Path(__file__).resolve().parent
+framework_location, version = get_framework_file_and_version(framework_dir)
+terms_output_location = framework_dir.parent / "data" / "terms.json"
 
 df = pd.read_excel(
     framework_location,
